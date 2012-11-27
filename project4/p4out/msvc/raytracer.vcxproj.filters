@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{506df837-495b-4dbb-9c48-9adde18f1eee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\application">
+      <UniqueIdentifier>{afada998-5a4f-436e-bdcf-5605a9ff9de4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\scene">
+      <UniqueIdentifier>{62a2ab1a-be44-49c9-805d-200d32142640}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\raytracer">
+      <UniqueIdentifier>{34d56623-26d6-478d-8a74-93ac3a5c25fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\math">
+      <UniqueIdentifier>{33baf329-bc1c-4d18-b85b-58a9b674914c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\tinyxml">
+      <UniqueIdentifier>{b8375c15-6559-4c6c-8ebc-d4c9ba6feb36}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\application\application.cpp">
+      <Filter>src\application</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\application\camera_roam.cpp">
+      <Filter>src\application</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\application\imageio.cpp">
+      <Filter>src\application</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\application\scene_loader.cpp">
+      <Filter>src\application</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\scene\material.cpp">
+      <Filter>src\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\scene\mesh.cpp">
+      <Filter>src\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\scene\model.cpp">
+      <Filter>src\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\scene\scene.cpp">
+      <Filter>src\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\scene\sphere.cpp">
+      <Filter>src\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\scene\triangle.cpp">
+      <Filter>src\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\raytracer\main.cpp">
+      <Filter>src\raytracer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\raytracer\raytracer.cpp">
+      <Filter>src\raytracer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\math\camera.cpp">
+      <Filter>src\math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\math\color.cpp">
+      <Filter>src\math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\math\matrix.cpp">
+      <Filter>src\math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\math\quaternion.cpp">
+      <Filter>src\math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\math\vector.cpp">
+      <Filter>src\math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\tinyxml\tinyxml.cpp">
+      <Filter>src\tinyxml</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\tinyxml\tinyxmlerror.cpp">
+      <Filter>src\tinyxml</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\tinyxml\tinyxmlparser.cpp">
+      <Filter>src\tinyxml</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\src\application\application.hpp">
+      <Filter>src\application</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\application\camera_roam.hpp">
+      <Filter>src\application</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\application\imageio.hpp">
+      <Filter>src\application</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\application\opengl.hpp">
+      <Filter>src\application</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\application\scene_loader.hpp">
+      <Filter>src\application</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\scene\material.hpp">
+      <Filter>src\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\scene\mesh.hpp">
+      <Filter>src\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\scene\model.hpp">
+      <Filter>src\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\scene\scene.hpp">
+      <Filter>src\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\scene\sphere.hpp">
+      <Filter>src\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\scene\triangle.hpp">
+      <Filter>src\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\raytracer\raytracer.hpp">
+      <Filter>src\raytracer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\math\camera.hpp">
+      <Filter>src\math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\math\color.hpp">
+      <Filter>src\math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\math\math.hpp">
+      <Filter>src\math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\math\matrix.hpp">
+      <Filter>src\math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\math\quaternion.hpp">
+      <Filter>src\math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\math\vector.hpp">
+      <Filter>src\math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\tinyxml\tinyxml.h">
+      <Filter>src\tinyxml</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

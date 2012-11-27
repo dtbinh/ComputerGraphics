@@ -1,0 +1,4 @@
+I use five passes to render the whole scene. The first pass is just render the scene to the framebuffer, including the color buffer and the depth buffer. The second pass is using normal shaders to write normals into the color buffer, which is bind to the normal texture. The third pass is to use the normals and depth value to compute the outline, using the outline shader. The fourth pass is to combine the previous and current frame to make the motion blur. The weight is set 0.2 in the shader. The last pass is render to the screen. I think the shader here is optional. But I didn't get enough time to test.
+
+The problem I have is there is no vertical outline of the background in the toy scene.
+
