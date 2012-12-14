@@ -1,0 +1,5 @@
+I have implemented all the required tasks.
+For the forces, I apply the gravity and the spring force seperatedly, add them together and reset them after the calculation of each k(k1, k2, k3, k4). For the RK4, I have a function called Evaluation which is basically doing the differential calculation of each component. And then after applying the forces, update the physical attribute of the body for the next differential calculation. The collision detection part, I have implemented the collision between two spheres, a sphere and a triangle and a sphere and a plane. For the sphere and triangle collision detection, I have also implemented the edge collision detection. 
+I think I have implemented the spring in a correct way however my spring and newtons cradle scene will jitter after a while. I have checked all the situation that rotation equals to 0 but still get the same problem. 
+
+ 
